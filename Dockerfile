@@ -1,10 +1,8 @@
 FROM java:8
 
-RUN mkdir -p /app
+COPY . /var/www/java
 
-COPY . /app
-
-WORKDIR /app
+WORKDIR /var/www/java
 
 CMD javac DevOpsCertTrainingAssignment3.java
 
