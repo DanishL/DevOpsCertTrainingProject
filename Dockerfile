@@ -8,4 +8,4 @@ WORKDIR /app
 
 CMD javac DevOpsCertTrainingAssignment3.java
 
-CMD java DevOpsCertTrainingAssignment3
+CMD java ./DevOpsCertTrainingAssignment3
